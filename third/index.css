@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: auto;
+    height: calc(1/7 * 100vh);
+    min-height: 133.42px;
+    background-color: #D8D8D8;
+    position: relative;
+}
+
+.logo {
+    width: calc(100vh * 1/9);
+    height: calc(100vh * 1/9);
+    background-color: #4A90E2;
+    position: absolute;
+    left: 22.2230550px;
+    top: 11.1115275%;
+}
+
+.content {
+    width: auto;
+    height: calc(2/7 * 100vh);
+    min-height: 266.84px;
+    background-color: #FFFFFF;
+}
+
+.content div {
+    font-size: 150%;
+    padding: 65px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.content2 {
+    width: auto;
+    height: calc(1/7 * 100vh);
+    min-height: 133.42px;    
+    background-color: #4A90E2;
+}
+
+.content3 {
+    width: auto;
+    height: calc(1/7 * 100vh);
+    background-color: #50E3C2;
+    min-height: 133.42px;
+}
+.content4 {
+    width: auto;
+    height: calc(1/7 * 100vh);
+    background-color: #B8E986;
+    min-height: 133.42px;
+}
+.content5 {
+    width: auto;
+    height: calc(1/7 * 100vh);
+    background-color: #F8E71C;
+    min-height: 133.42px;
+}
