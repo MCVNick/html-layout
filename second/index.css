@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 25px;
+}
+
+.firstBox{
+    border: 2px solid black;
+    height: 150px;
+    padding: 10px;
+    position: relative;
+    width: auto;
+}
+
+.firstShape {
+    background-color: #8A2BE2;
+    bottom: 10px;
+    position: absolute;
+    height: 100px;
+    left: 10px;
+    width: 50px;
+}
+
+.secondShape {
+    background-color: #228B22;
+    bottom: 10px;
+    position: absolute;
+    height: calc(100% - 20px);
+    left: 100px;
+    width: 200px
+}
+
+.thirdShape {
+    background-color: #87CEEB;
+    border-radius: 100%;
+    bottom: 10px;
+    position: absolute;
+    height: calc(100% - 20px);
+    left: 350px;
+    width: 150px;
+}
+
+.secondBox {
+    border: 2px dotted black;
+    height: 150px;
+    margin: 25px 0px;
+    padding: 10px;
+    position: relative;
+    width: auto;
+}
+
+.secondContent {
+    background-color: #FFFACD;
+    box-shadow: 5px 5px 2.5px black;
+    height: 100px;
+    margin: 25px;
+    width: auto;
+}
+
+.thirdBox {
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 5px gray;
+    box-sizing: border-box;
+    margin: 25px auto;
+    padding: 100px;
+    width: 50%;
+}
+
+.thirdBox h1 {
+    color: navy;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.holder {
+    
+}
