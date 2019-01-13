@@ -14,6 +14,8 @@ body {
 .logo {
     width: calc(100vh * 1/9);
     height: calc(100vh * 1/9);
+    min-width: 105.33px;
+    min-height: 105.33px;
     background-color: #4A90E2;
     position: absolute;
     left: 22.2230550px;
